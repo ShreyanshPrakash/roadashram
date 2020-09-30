@@ -1,0 +1,57 @@
+
+.font-size-8 {
+    font-size: 8px;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.body-text {
+    text-align: center;
+}
+
+
+.wrapper {
+    border: 2px solid black;
+    height: 100vh;
+    padding: 20px;
+
+
+    .navBar {
+        border: 2px solid black;
+        margin-top: 120px;
+        padding: 4px 0px;
+        text-align: center;
+
+        a {
+            padding: 0px 8px;
+            border-right: 1px solid black;
+            text-decoration: none;
+            color: black;
+        }
+
+        a:last-child {
+            border-right: none;
+        }
+    }
+
+    .icons {
+
+        text-align: center;
+        margin-top: 32%;
+
+        .icon-item {
+
+            img {
+                width: 22px;
+                // height: 24px;
+                margin-right: 8px;
+            }
+
+            .fb, .location {
+                width: 12px;
+            }
+        }
+    }
+}
