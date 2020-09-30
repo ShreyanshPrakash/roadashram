@@ -1,6 +1,6 @@
 
 .font-size-8 {
-    font-size: 8px;
+    font-size: 7px;
 }
 
 .font-size-12 {
@@ -25,7 +25,7 @@
         text-align: center;
 
         a {
-            padding: 0px 8px;
+            padding: 0px 2px;
             border-right: 1px solid black;
             text-decoration: none;
             color: black;
@@ -34,6 +34,11 @@
         a:last-child {
             border-right: none;
         }
+
+        // a.active {
+        //     border-bottom: 1px solid black;
+        // }
+        
     }
 
     .icons {
@@ -46,7 +51,7 @@
             img {
                 width: 22px;
                 // height: 24px;
-                margin-right: 8px;
+                margin-right: 12px;
             }
 
             .fb, .location {

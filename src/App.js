@@ -10,6 +10,13 @@ import image from "./pages/background.jpg";
 
 import {
   HomeComponent,
+  ProblemComponent,
+  DonateComponent,
+  RoadAshramComponent,
+  PeopleComponent,
+  JourneyComponent,
+  VolunteerComponent,
+  ContactComponent,
 } from './pages';
 
 function App() {
@@ -23,11 +30,28 @@ function App() {
       <div className="appContainer">
         <Router>
           <Switch>
-            <Route path="/about">
+            <Route path="/problem">
+              <ProblemComponent />
             </Route>
-            <Route path="/users">
+            <Route path="/donate">
+              <DonateComponent />
             </Route>
-            <Route path="/">
+            <Route path="/roadashram">
+              <RoadAshramComponent />
+            </Route>
+            <Route path="/people">
+              <PeopleComponent />
+            </Route>
+            <Route path="/journey">
+              <JourneyComponent />
+            </Route>
+            <Route path="/volunteer">
+              <VolunteerComponent />
+            </Route>
+            <Route path="/contact">
+              <ContactComponent />
+            </Route>
+            <Route exact path="/">
               <HomeComponent />
             </Route>
           </Switch>

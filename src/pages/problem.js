@@ -11,7 +11,7 @@ import {
 } from './config';
 
 
-export function HomeComponent() {
+export function ProblemComponent() {
 
     return (
         <React.Fragment>
@@ -36,25 +36,23 @@ export function HomeComponent() {
                 <div className="content-container">
                     <div className="body-text font-size-12">
                         <p>
-                            <b>W</b>e are driving along India’s borders to raise awareness and money to help people facing difficulties because of the pandemic.
+                        As the Covid-19 pandemic ravages our world, India is one of the worst affected countries. The lockdown and other restrictions necessitated by the pandemic has affected the livelihoods of millions of people. 
                     </p>
                     </div>
 
                     <div className="body-text font-size-12">
                         <p>
-                            You can help us by donating generously. All money raised goes to non-profits that are already providing relief to affected people across the country.
+                        We are facing a humanitarian crisis. A crisis which will push people back into 
+                        <a href="#"> poverty,</a>
+                        <a href="#"> trigger malnutrition,</a>
+                        <a href="#"> hunger and affect children severely,</a>
                     </p>
                     </div>
 
                     <div className=" body-text font-size-12">
                         <p>
-                            As a thank you we promise to share our journey, learnings, joys, sorrows through our short films that we are posting on our Facebook / Instagram / Twitter  / Youtube pages.
-                    </p>
-                    </div>
-
-                    <div className="body-text font-size-12">
-                        <p>
-                            Join us for this fun, tiring and long journey!
+                        We need to address these challenges right now. You can help by making a 
+                        <a href="#"> generous donation right away.</a>
                     </p>
                     </div>
                 </div>

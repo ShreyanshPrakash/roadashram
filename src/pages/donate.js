@@ -11,7 +11,8 @@ import {
 } from './config';
 
 
-export function HomeComponent() {
+export function DonateComponent() {
+
 
     return (
         <React.Fragment>
@@ -34,27 +35,37 @@ export function HomeComponent() {
 
 
                 <div className="content-container">
-                    <div className="body-text font-size-12">
+                    {/* <div className="body-text font-size-12">
                         <p>
-                            <b>W</b>e are driving along India’s borders to raise awareness and money to help people facing difficulties because of the pandemic.
+                        The effect of lockdowns because of the pandemic means that people have lost jobs, businesses have been shut and a large number of people are staring at hunger. 
                     </p>
                     </div>
 
                     <div className="body-text font-size-12">
                         <p>
-                            You can help us by donating generously. All money raised goes to non-profits that are already providing relief to affected people across the country.
+                        We appeal to you to make a donation to help provide food kits to people in need.
+
+                    </p>
+                    </div> */}
+
+                    <div className=" body-text font-size-12">
+                        <p>
+                        All funds raised from the campaign go straight to Give India and will enable the provision of food kits for the worst affected communities across the country. 
+
                     </p>
                     </div>
 
                     <div className=" body-text font-size-12">
                         <p>
-                            As a thank you we promise to share our journey, learnings, joys, sorrows through our short films that we are posting on our Facebook / Instagram / Twitter  / Youtube pages.
+                        The trip organisers, driver & passengers in the car do not receive any benefit from your donation. 
+
                     </p>
                     </div>
 
                     <div className="body-text font-size-12">
                         <p>
-                            Join us for this fun, tiring and long journey!
+                        Please donate generously. Together is the only way we can overcome this crisis. 
+
                     </p>
                     </div>
                 </div>

@@ -11,7 +11,7 @@ import {
 } from './config';
 
 
-export function HomeComponent() {
+export function VolunteerComponent() {
 
     return (
         <React.Fragment>
@@ -36,36 +36,55 @@ export function HomeComponent() {
                 <div className="content-container">
                     <div className="body-text font-size-12">
                         <p>
-                            <b>W</b>e are driving along India’s borders to raise awareness and money to help people facing difficulties because of the pandemic.
+                            We need help. Lots of it. Take a look at the list.
+
                     </p>
                     </div>
 
                     <div className="body-text font-size-12">
                         <p>
-                            You can help us by donating generously. All money raised goes to non-profits that are already providing relief to affected people across the country.
+                            Be a social media ninja. Help us spread the message amongst your friends and family.
+
                     </p>
                     </div>
 
                     <div className=" body-text font-size-12">
                         <p>
-                            As a thank you we promise to share our journey, learnings, joys, sorrows through our short films that we are posting on our Facebook / Instagram / Twitter  / Youtube pages.
+                            Organise an event in your city, invite your friends, family, a local NGO, the media and whoever else. We are happy to spend a few hours with you and talk about what we learnt. Offer food, shelter, petrol or cover our costs.
+
                     </p>
                     </div>
 
                     <div className="body-text font-size-12">
                         <p>
-                            Join us for this fun, tiring and long journey!
+                            Work for a corporate? Petition your company to donate. Use this template.
+
                     </p>
+                    </div>
+
+                    <div className="body-text font-size-12">
+                        <p>
+                            Friends with a celeb ? Ask them to help spread the message.
+
+                    </p>
+                    </div>
+
+                    <div className="body-text font-size-12">
+                        <p>
+                            Got ideas ?
+                            <a href="#">Talk to us.</a>
+
+                        </p>
                     </div>
                 </div>
 
                 <div className="icons">
                     {
-                        icons.map((icon,index) => {
+                        icons.map((icon, index) => {
                             return (
                                 <React.Fragment>
                                     <span className="icon-item">
-                                        <img src={icon.src} alt={icon.title} className={icon.class}/>
+                                        <img src={icon.src} alt={icon.title} className={icon.class} />
                                     </span>
                                 </React.Fragment>
                             )

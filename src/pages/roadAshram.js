@@ -11,7 +11,8 @@ import {
 } from './config';
 
 
-export function HomeComponent() {
+export function RoadAshramComponent() {
+
 
     return (
         <React.Fragment>
@@ -36,36 +37,45 @@ export function HomeComponent() {
                 <div className="content-container">
                     <div className="body-text font-size-12">
                         <p>
-                            <b>W</b>e are driving along India’s borders to raise awareness and money to help people facing difficulties because of the pandemic.
-                    </p>
+                            It’s a Car, It’s a Home, It’s a Studio, It’s a School, It is the Road Ashram!
+                            Made with love & passion the Road Ashram is a unique vehicle.
+                        </p>
                     </div>
 
                     <div className="body-text font-size-12">
                         <p>
-                            You can help us by donating generously. All money raised goes to non-profits that are already providing relief to affected people across the country.
-                    </p>
+                            We travel, live, make films, learn, teach and do a lot more in the
+                            Road Ashram!
+
+
+                        </p>
                     </div>
 
                     <div className=" body-text font-size-12">
                         <p>
-                            As a thank you we promise to share our journey, learnings, joys, sorrows through our short films that we are posting on our Facebook / Instagram / Twitter  / Youtube pages.
+
+                            The Road Ashram was made to raise awareness and money for Covid relief. So before you get lost admiring the Road Ashram, make a donation now!
+
+
                     </p>
                     </div>
 
                     <div className="body-text font-size-12">
                         <p>
-                            Join us for this fun, tiring and long journey!
+                            Check our social media handles for video and pictures from the trip
+
+
                     </p>
                     </div>
                 </div>
 
                 <div className="icons">
                     {
-                        icons.map((icon,index) => {
+                        icons.map((icon, index) => {
                             return (
                                 <React.Fragment>
                                     <span className="icon-item">
-                                        <img src={icon.src} alt={icon.title} className={icon.class}/>
+                                        <img src={icon.src} alt={icon.title} className={icon.class} />
                                     </span>
                                 </React.Fragment>
                             )

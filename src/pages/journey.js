@@ -11,7 +11,7 @@ import {
 } from './config';
 
 
-export function HomeComponent() {
+export function JourneyComponent() {
 
     return (
         <React.Fragment>
@@ -36,36 +36,42 @@ export function HomeComponent() {
                 <div className="content-container">
                     <div className="body-text font-size-12">
                         <p>
-                            <b>W</b>e are driving along India’s borders to raise awareness and money to help people facing difficulties because of the pandemic.
+                            22000 Kilometers, 54 days, 30 states, 3 people and the Road Ashram.
+                            We plan to travel along all of India’s borders (closest motorable, permissible road).
+
                     </p>
                     </div>
 
                     <div className="body-text font-size-12">
                         <p>
-                            You can help us by donating generously. All money raised goes to non-profits that are already providing relief to affected people across the country.
+                            Starting at Delhi we reach Gangotri, to travel along India’s international borders, touching Nepal, Bhutan, China, Burma, Bangladesh, Bay of Bengal, down the Eastern coastline to Kanyakumari then up the Western coast to Mumbai, then to the Pakistan border along Gujarat and Rajasthan, through Punjab to Kashmir and Leh then in the final leg we cross Chandigarh to make our way back to Gangotri and end in Delhi.
+
                     </p>
                     </div>
 
                     <div className=" body-text font-size-12">
                         <p>
-                            As a thank you we promise to share our journey, learnings, joys, sorrows through our short films that we are posting on our Facebook / Instagram / Twitter  / Youtube pages.
+                            Along the way we learn and share our learnings about the country, it’s foods, cultures, people and places, while we try to find the unity in the many diversities that make India, India.
+
                     </p>
                     </div>
 
                     <div className="body-text font-size-12">
                         <p>
-                            Join us for this fun, tiring and long journey!
-                    </p>
+                            Follow us on social media to keep in touch!
+                        <a href="#">And don’t forget to donate!</a>
+
+                        </p>
                     </div>
                 </div>
 
                 <div className="icons">
                     {
-                        icons.map((icon,index) => {
+                        icons.map((icon, index) => {
                             return (
                                 <React.Fragment>
                                     <span className="icon-item">
-                                        <img src={icon.src} alt={icon.title} className={icon.class}/>
+                                        <img src={icon.src} alt={icon.title} className={icon.class} />
                                     </span>
                                 </React.Fragment>
                             )

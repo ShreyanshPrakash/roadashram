@@ -11,7 +11,7 @@ import {
 } from './config';
 
 
-export function HomeComponent() {
+export function PeopleComponent() {
 
     return (
         <React.Fragment>
@@ -36,36 +36,64 @@ export function HomeComponent() {
                 <div className="content-container">
                     <div className="body-text font-size-12">
                         <p>
-                            <b>W</b>e are driving along India’s borders to raise awareness and money to help people facing difficulties because of the pandemic.
+                            DRIVER, INNOVATOR, HELL RAISER, AHMER
+
+                    </p>
+                        <p>
+                            Ahmer is an avid reader, status quo questioner and all around Jugaad guy. He lives in Delhi and works in the non-profit sector helping NGO’s expand their reachAhmer is an avid reader, status quo questioner and all around Jugaad guy.
+                            He lives in Delhi and works in the non-profit sector helping NGO’s expand their reach
+
+
                     </p>
                     </div>
 
                     <div className="body-text font-size-12">
                         <p>
-                            You can help us by donating generously. All money raised goes to non-profits that are already providing relief to affected people across the country.
-                    </p>
-                    </div>
 
-                    <div className=" body-text font-size-12">
+                            NAVIGATOR, TRIVIA MACHINE, FOODIE, SIDDHARTHA
+
+
+                    </p>
                         <p>
-                            As a thank you we promise to share our journey, learnings, joys, sorrows through our short films that we are posting on our Facebook / Instagram / Twitter  / Youtube pages.
+                            Siddhartha is an unusal adventurer, organiser and a numbers geek.
+                            He lives in Mumbai with his family and works in the non-profit sector as a fundraiser
+
+
                     </p>
                     </div>
 
                     <div className="body-text font-size-12">
                         <p>
-                            Join us for this fun, tiring and long journey!
+                            FILM MAKER, ARTIST, CONNECTOR, NEHA
+
+
+                    </p>
+                        <p>
+                            Neha is an creative collaborator, community maker maker and a person with magic fingers
+                            Neha lives in Agra and works with a transdisciplinary international community
+
+
                     </p>
                     </div>
+
+                    <div className="body-text font-size-12">
+                        <p>
+                        All three of us are undertaking this journey to raise funds for people affected by the pandemic, so 
+                        <a href="#"> please donate</a>
+                    </p>
+                    </div>
+
+                    
+
                 </div>
 
                 <div className="icons">
                     {
-                        icons.map((icon,index) => {
+                        icons.map((icon, index) => {
                             return (
                                 <React.Fragment>
                                     <span className="icon-item">
-                                        <img src={icon.src} alt={icon.title} className={icon.class}/>
+                                        <img src={icon.src} alt={icon.title} className={icon.class} />
                                     </span>
                                 </React.Fragment>
                             )
