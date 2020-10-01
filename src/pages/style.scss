@@ -5,11 +5,11 @@
 }
 
 .font-size-8 {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .font-size-12 {
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .body-text {
@@ -46,10 +46,11 @@
         text-align: center;
 
         a {
-            padding: 0px 2px;
+            padding: 0px 3px;
             border-right: 1px solid black;
             text-decoration: none;
             color: black;
+            margin-right: 2px;
         }
 
         a:last-child {
@@ -78,7 +79,7 @@
     .icons {
 
         text-align: center;
-        margin-top: 2vh;
+        margin-top: 0vh;
 
         .icon-item {
 
@@ -104,7 +105,7 @@
     }
     
     .font-size-12 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .journey {
@@ -115,7 +116,7 @@
     
             .body-text {
                 // margin-bottom: 0px;
-                font-size: 17px;
+                font-size: 16px;
             }
         }
     }

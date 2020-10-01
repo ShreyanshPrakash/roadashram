@@ -23,18 +23,9 @@ export function HomeComponent() {
                         navLinks.map((nav, index) => {
                             return (
                                 <React.Fragment key={index}>
-                                    {
-                                        nav?.text?.toLowerCase() === "why"
-                                            ?
-                                            <NavLink to={nav.link} className="font-size-8">
-                                                <b>W</b>hy
-                                            </NavLink>
-                                            :
-                                            <NavLink to={nav.link} className="font-size-8">
-                                                {nav.text}
-                                            </NavLink>
-
-                                    }
+                                    <NavLink to={nav.link} className="font-size-8">
+                                        {nav.text}
+                                    </NavLink>
                                 </React.Fragment>
                             )
                         })
@@ -45,7 +36,7 @@ export function HomeComponent() {
                 <div className="content-container">
                     <div className="body-text font-size-12">
                         <p>
-                            <b>W</b>e are driving along India’s borders to raise awareness and money to help people facing difficulties because of the pandemic.
+                            We are driving along India’s borders to raise awareness and money to help people facing difficulties because of the pandemic.
                     </p>
                     </div>
 
@@ -74,12 +65,18 @@ export function HomeComponent() {
                             return (
                                 <React.Fragment>
                                     <span className="icon-item">
-                                        <img src={icon.src} alt={icon.title} className={icon.class} />
+                                        <a href={icon.link} target="_blank">
+                                            <img src={icon.src} alt={icon.title} className={icon.class} />
+                                        </a>
                                     </span>
                                 </React.Fragment>
                             )
                         })
                     }
+                </div>
+
+                <div className="donate-now">
+                    DONATE NOW
                 </div>
 
 

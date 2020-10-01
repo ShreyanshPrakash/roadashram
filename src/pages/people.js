@@ -92,7 +92,9 @@ export function PeopleComponent() {
                             return (
                                 <React.Fragment>
                                     <span className="icon-item">
-                                        <img src={icon.src} alt={icon.title} className={icon.class} />
+                                        <a href={icon.link} target="_blank">
+                                            <img src={icon.src} alt={icon.title} className={icon.class} />
+                                        </a>
                                     </span>
                                 </React.Fragment>
                             )

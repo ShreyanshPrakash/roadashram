@@ -36,8 +36,8 @@ export function JourneyComponent() {
                 <div className="content-container">
                     <div className="body-text font-size-12">
                         <p>
-                        22000 Kilometers, 54 days, 30 states, 3 people and the Road Ashram. 
-<b>W</b>e plan to travel along all of India’s borders (closest motorable, permissible road). 
+                            22000 Kilometers, 54 days, 30 states, 3 people and the Road Ashram.
+                            We plan to travel along all of India’s borders (closest motorable, permissible road).
 
 
                     </p>
@@ -45,7 +45,7 @@ export function JourneyComponent() {
 
                     <div className="body-text font-size-12">
                         <p>
-                        Starting at Delhi, we reach Gangotri, to travel along India’s international borders, touching Nepal, Bhutan, China, Burma, Bangladesh, Bay of Bengal, down the Eastern coastline to Kanyakumari then up the <b>W</b>estern coast to <b>M</b>umbai, then to the Pakistan border along Gujarat and Rajasthan, through Punjab to Kashmir and Leh then in the final leg we cross Chandigarh to make our way back to Gangotri and end in Delhi.
+                            Starting at Delhi, we reach Gangotri, to travel along India’s international borders, touching Nepal, Bhutan, China, Burma, Bangladesh, Bay of Bengal, down the Eastern coastline to Kanyakumari then up the Western coast to Mumbai, then to the Pakistan border along Gujarat and Rajasthan, through Punjab to Kashmir and Leh then in the final leg we cross Chandigarh to make our way back to Gangotri and end in Delhi.
 
 
                     </p>
@@ -53,7 +53,7 @@ export function JourneyComponent() {
 
                     <div className="body-text font-size-12">
                         <p>
-                        Along the way, we learn and share our learnings about the country, it’s foods, cultures, people and places, while we try to find the unity in the many diversities that make India, India.
+                            Along the way, we learn and share our learnings about the country, it’s foods, cultures, people and places, while we try to find the unity in the many diversities that make India, India.
 
 
                     </p>
@@ -61,7 +61,7 @@ export function JourneyComponent() {
 
                     <div className="body-text font-size-12">
                         <p>
-                        Follow us on social media to keep in touch! And don’t forget to donate!
+                            Follow us on social media to keep in touch! And don’t forget to donate!
                         </p>
                     </div>
                 </div>
@@ -72,7 +72,9 @@ export function JourneyComponent() {
                             return (
                                 <React.Fragment>
                                     <span className="icon-item">
-                                        <img src={icon.src} alt={icon.title} className={icon.class} />
+                                        <a href={icon.link} target="_blank">
+                                            <img src={icon.src} alt={icon.title} className={icon.class} />
+                                        </a>
                                     </span>
                                 </React.Fragment>
                             )

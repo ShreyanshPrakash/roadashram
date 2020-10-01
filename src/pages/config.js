@@ -34,18 +34,18 @@ export const navLinks = [
 export const icons = [
     {
         src: "./assets/images/fb.png",
-        link: "#",
+        link: "https://www.facebook.com/roadashram",
         title: "Facebook link",
         class: "fb",
     },
     {
         src: "./assets/images/twitter.png",
-        link: "#",
+        link: "https://twitter.com/RoadAshram",
         title: "Twitter link",
     },
     {
         src: "./assets/images/Insta.png",
-        link: "#",
+        link: "https://www.instagram.com/road_ashram/",
         title: "Instagram link",
     },
     // {

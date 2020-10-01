@@ -44,7 +44,7 @@ export function RoadAshramComponent() {
 
                     <div className="body-text font-size-12">
                         <p>
-                            <b>W</b>e travel, live, make films, learn, teach and do a lot more in the
+                            We travel, live, make films, learn, teach and do a lot more in the
                             Road Ashram!
 
 
@@ -75,7 +75,9 @@ export function RoadAshramComponent() {
                             return (
                                 <React.Fragment>
                                     <span className="icon-item">
-                                        <img src={icon.src} alt={icon.title} className={icon.class} />
+                                        <a href={icon.link} target="_blank">
+                                            <img src={icon.src} alt={icon.title} className={icon.class} />
+                                        </a>
                                     </span>
                                 </React.Fragment>
                             )

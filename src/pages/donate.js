@@ -43,7 +43,7 @@ export function DonateComponent() {
 
                     <div className="body-text font-size-12">
                         <p>
-                        <b>W</b>e appeal to you to make a donation to help provide food kits to people in need.
+                        We appeal to you to make a donation to help provide food kits to people in need.
 
                     </p>
                     </div>
@@ -73,11 +73,13 @@ export function DonateComponent() {
 
                 <div className="icons">
                     {
-                        icons.map((icon,index) => {
+                        icons.map((icon, index) => {
                             return (
                                 <React.Fragment>
                                     <span className="icon-item">
-                                        <img src={icon.src} alt={icon.title} className={icon.class}/>
+                                        <a href={icon.link} target="_blank">
+                                            <img src={icon.src} alt={icon.title} className={icon.class} />
+                                        </a>
                                     </span>
                                 </React.Fragment>
                             )
