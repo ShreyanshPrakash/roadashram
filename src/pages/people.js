@@ -36,12 +36,12 @@ export function PeopleComponent() {
                 <div className="content-container">
                     <div className="body-text font-size-12">
                         <p>
-                            DRIVER, INNOVATOR, HELL RAISER, AHMER
+                            <b>DRIVER, INNOVATOR, HELL RAISER, AHMER</b>
 
                     </p>
                         <p>
-                            Ahmer is an avid reader, status quo questioner and all around Jugaad guy. He lives in Delhi and works in the non-profit sector helping NGO’s expand their reachAhmer is an avid reader, status quo questioner and all around Jugaad guy.
-                            He lives in Delhi and works in the non-profit sector helping NGO’s expand their reach
+                        Ahmer is an avid reader, status quo questioner and all around Jugaad guy. He works in the non-profit sector helping NGO’s expand their reach
+
 
 
                     </p>
@@ -50,7 +50,7 @@ export function PeopleComponent() {
                     <div className="body-text font-size-12">
                         <p>
 
-                            NAVIGATOR, TRIVIA MACHINE, FOODIE, SIDDHARTHA
+                            <b>NAVIGATOR, TRIVIA MACHINE, FOODIE, SIDDHARTHA</b>
 
 
                     </p>
@@ -64,24 +64,23 @@ export function PeopleComponent() {
 
                     <div className="body-text font-size-12">
                         <p>
-                            FILM MAKER, ARTIST, CONNECTOR, NEHA
+                            <b>FILM MAKER, ARTIST, CONNECTOR, NEHA</b>
 
 
                     </p>
                         <p>
-                            Neha is an creative collaborator, community maker maker and a person with magic fingers
-                            Neha lives in Agra and works with a transdisciplinary international community
+                            Neha is an creative collaborator, community maker maker and a person with magic and works with a transdisciplinary international community
 
 
                     </p>
                     </div>
 
-                    <div className="body-text font-size-12">
+                    {/* <div className="body-text font-size-12">
                         <p>
                         All three of us are undertaking this journey to raise funds for people affected by the pandemic, so 
                         <a href="#"> please donate</a>
                     </p>
-                    </div>
+                    </div> */}
 
                     
 

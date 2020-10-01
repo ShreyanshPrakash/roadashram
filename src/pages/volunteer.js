@@ -36,7 +36,8 @@ export function VolunteerComponent() {
                 <div className="content-container">
                     <div className="body-text font-size-12">
                         <p>
-                            We need help. Lots of it. Take a look at the list.
+                        <b>W</b>e need help. Lots of it. Take a look at the list. 
+
 
                     </p>
                     </div>
@@ -50,14 +51,15 @@ export function VolunteerComponent() {
 
                     <div className=" body-text font-size-12">
                         <p>
-                            Organise an event in your city, invite your friends, family, a local NGO, the media and whoever else. We are happy to spend a few hours with you and talk about what we learnt. Offer food, shelter, petrol or cover our costs.
+                        Organise an event in your city, invite your friends, family, a local NGO, the media and whoever else. <b>W</b>e are happy to spend a few hours with you and talk about what we learnt. Offer food, shelter, petrol or cover our costs. 
+
 
                     </p>
                     </div>
 
                     <div className="body-text font-size-12">
                         <p>
-                            Work for a corporate? Petition your company to donate. Use this template.
+                            <b>W</b>ork for a corporate? Petition your company to donate. Use this template.
 
                     </p>
                     </div>
@@ -71,8 +73,10 @@ export function VolunteerComponent() {
 
                     <div className="body-text font-size-12">
                         <p>
-                            Got ideas ?
-                            <a href="#">Talk to us.</a>
+                            {/* Got ideas ?
+                            <a href="#">Talk to us.</a> */}
+                            Got ideas ? Talk to us.
+
 
                         </p>
                     </div>

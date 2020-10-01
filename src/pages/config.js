@@ -1,22 +1,22 @@
 export const navLinks = [
     {
-        text: "The Problem",
-        link: "/problem"
+        text: "Why",
+        link: "/"
     },
     {
         text: "Donate",
         link: "/donate"
     },
     {
-        text: "The Road Ashram",
+        text: "Road Ashram",
         link: "/roadashram"
     },
     {
-        text: "The People",
+        text: "People",
         link: "/people"
     },
     {
-        text: "The Journey",
+        text: "Journey",
         link: "/journey"
     },
     {

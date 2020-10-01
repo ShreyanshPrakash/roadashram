@@ -30,9 +30,9 @@ function App() {
       <div className="appContainer">
         <Router>
           <Switch>
-            <Route path="/problem">
+            {/* <Route path="/problem">
               <ProblemComponent />
-            </Route>
+            </Route> */}
             <Route path="/donate">
               <DonateComponent />
             </Route>

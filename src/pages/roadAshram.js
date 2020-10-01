@@ -44,7 +44,7 @@ export function RoadAshramComponent() {
 
                     <div className="body-text font-size-12">
                         <p>
-                            We travel, live, make films, learn, teach and do a lot more in the
+                            <b>W</b>e travel, live, make films, learn, teach and do a lot more in the
                             Road Ashram!
 
 

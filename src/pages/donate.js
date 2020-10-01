@@ -35,7 +35,7 @@ export function DonateComponent() {
 
 
                 <div className="content-container">
-                    {/* <div className="body-text font-size-12">
+                    <div className="body-text font-size-12">
                         <p>
                         The effect of lockdowns because of the pandemic means that people have lost jobs, businesses have been shut and a large number of people are staring at hunger. 
                     </p>
@@ -43,10 +43,10 @@ export function DonateComponent() {
 
                     <div className="body-text font-size-12">
                         <p>
-                        We appeal to you to make a donation to help provide food kits to people in need.
+                        <b>W</b>e appeal to you to make a donation to help provide food kits to people in need.
 
                     </p>
-                    </div> */}
+                    </div>
 
                     <div className=" body-text font-size-12">
                         <p>
@@ -57,7 +57,7 @@ export function DonateComponent() {
 
                     <div className=" body-text font-size-12">
                         <p>
-                        The trip organisers, driver & passengers in the car do not receive any benefit from your donation. 
+                        All funds raised from the campaign go straight to NGOs. The trip organisers, driver & passengers in the car do not receive any benefit from your donation
 
                     </p>
                     </div>
@@ -65,6 +65,7 @@ export function DonateComponent() {
                     <div className="body-text font-size-12">
                         <p>
                         Please donate generously. Together is the only way we can overcome this crisis. 
+
 
                     </p>
                     </div>
