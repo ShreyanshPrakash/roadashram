@@ -20,7 +20,8 @@
 
     .navBar {
         border: 2px solid black;
-        margin-top: 120px;
+        // margin-top: 120px;
+        margin-top: 20vh;
         padding: 4px 0px;
         text-align: center;
 
@@ -41,10 +42,18 @@
         
     }
 
+
+    .content-container {
+
+        // border: 1px solid black;
+        height: 38vh;
+
+    }
+
     .icons {
 
         text-align: center;
-        margin-top: 32%;
+        margin-top: 2vh;
 
         .icon-item {
 
