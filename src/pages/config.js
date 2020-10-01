@@ -48,11 +48,12 @@ export const icons = [
         link: "https://www.instagram.com/road_ashram/",
         title: "Instagram link",
     },
-    // {
-    //     src: "./assets/images/Youtube.png",
-    //     link: "#",
-    //     title: "Youtube link",
-    // },
+    {
+        src: "./assets/images/youtubeIcon.png",
+        internal: true,
+        link: "/youtube",
+        title: "Youtube link",
+    },
     {
         src: "./assets/images/whatsapp.png",
         link: "#",
@@ -65,7 +66,8 @@ export const icons = [
     },
     {
         src: "./assets/images/location.png",
-        link: "#",
+        internal: true,
+        link: "/location",
         title: "Location link",
         class: "location",
     },

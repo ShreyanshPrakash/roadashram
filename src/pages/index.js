@@ -6,3 +6,5 @@ export * from './journey';
 export * from './volunteer';
 export * from './contact';
 export * from './problem';
+export * from './location';
+export * from './youtube';

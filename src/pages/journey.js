@@ -1,6 +1,7 @@
 import React from 'react';
 import {
     NavLink,
+    Link,
 } from 'react-router-dom';
 
 import "./style.scss";
@@ -72,9 +73,18 @@ export function JourneyComponent() {
                             return (
                                 <React.Fragment>
                                     <span className="icon-item">
-                                        <a href={icon.link} target="_blank">
-                                            <img src={icon.src} alt={icon.title} className={icon.class} />
-                                        </a>
+
+                                        {
+                                            icon.internal
+                                                ?
+                                                <Link to={icon.link}>
+                                                    <img src={icon.src} alt={icon.title} className={icon.class} />
+                                                </Link>
+                                                :
+                                                <a href={icon.link} target="_blank">
+                                                    <img src={icon.src} alt={icon.title} className={icon.class} />
+                                                </a>
+                                        }
                                     </span>
                                 </React.Fragment>
                             )
@@ -84,6 +94,9 @@ export function JourneyComponent() {
 
 
             </div>
+            <div className="donate-now">
+                DONATE NOW
+                </div>
         </React.Fragment>
     )
 }

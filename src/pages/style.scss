@@ -30,6 +30,39 @@
     }
 }
 
+.youtube-container {
+
+    display: flex;
+    justify-content: space-around;
+
+    .flex-item {
+
+    }
+
+    .arrow {
+        width: 20px;
+        align-self: center;
+        img {
+            width: 100%;
+        }
+    }
+
+    .arrow-right {
+        
+        img {
+            transform: rotate(180deg);
+        }
+    }
+
+    .youtube {
+        width: 60%;
+        align-self: center;
+        img {
+            width: 100%;
+        }
+    }
+}
+
 .wrapper {
     // border: 2px solid black;
     height: 100vh;
@@ -41,7 +74,7 @@
     .navBar {
         border: 2px solid black;
         // margin-top: 120px;
-        margin-top: 20vh;
+        margin-top: 17vh;
         padding: 4px 0px;
         text-align: center;
 
@@ -67,7 +100,7 @@
     .content-container {
 
         // border: 1px solid black;
-        height: 38vh;
+        height: 33vh;
         margin-top: 8px;
 
         .body-text {
@@ -76,10 +109,21 @@
 
     }
 
+    .map-container {
+        margin: auto;
+        width: 40%;
+        margin-top: 8px;
+
+
+        img {
+            width: 100%;
+        }
+    }
+
     .icons {
 
         text-align: center;
-        margin-top: 0vh;
+        margin-top: 1vh;
 
         .icon-item {
 
@@ -94,10 +138,54 @@
             }
         }
     }
+
+    
 }
 
+.donate-now {
+    background-color: red;
+    width: 100%;
+    text-align: center;
+    padding: 4px;
+    // height: 20px;
+    position: sticky;
+    bottom: 0px;
+}
 
-@media only screen and (min-width: 1200px){
+.appContainer {
+    background-image: url('./../assets/images/background.jpg');
+    // height: calc(100vh - 40px);
+    height: 92vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+// .icons {
+
+//     text-align: center;
+//     // margin-top: 0vh;
+//     position: fixed;
+//     bottom: 30vh;
+//     left: 27%;
+
+//     .icon-item {
+
+//         img {
+//             width: 22px;
+//             // height: 24px;
+//             margin-right: 12px;
+//         }
+
+//         .fb, .location {
+//             width: 12px;
+//         }
+//     }
+// }
+
+
+@media only screen and (min-width: 1024px){
     
 
     .font-size-8 {
@@ -135,6 +223,7 @@
             // margin-top: 20vh;
             // padding: 4px 0px;
             // text-align: center;
+            margin-top: 20vh;
     
             a {
                 // padding: 0px 2px;
@@ -179,5 +268,113 @@
                 }
             }
         }
+    }
+
+    .appContainer {
+        background-image: url('./../assets/images/background.jpg');
+        // height: calc(100vh - 40px);
+        height: 100vh;
+        width: 100vw;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+    }
+}
+
+
+
+@media only screen and (min-width: 1200px){
+    
+
+    .font-size-8 {
+        font-size: 18px;
+    }
+    
+    .font-size-12 {
+        font-size: 16px;
+    }
+
+    .journey {
+
+        .content-container {
+    
+            // border: 1px solid black;
+    
+            .body-text {
+                // margin-bottom: 0px;
+                font-size: 16px;
+            }
+        }
+    }
+
+
+    .wrapper {
+        // border: 2px solid black;
+        // height: 100vh;
+        // padding: 20px;
+        
+    
+    
+        .navBar {
+            // border: 2px solid black;
+            // // margin-top: 120px;
+            // margin-top: 20vh;
+            // padding: 4px 0px;
+            // text-align: center;
+            margin-top: 20vh;
+    
+            a {
+                // padding: 0px 2px;
+                // border-right: 1px solid black;
+                // text-decoration: none;
+                // color: black;
+            }
+    
+            a:last-child {
+                // border-right: none;
+            }
+    
+            // a.active {
+            //     border-bottom: 1px solid black;
+            // }
+            
+        }
+    
+    
+        .content-container {
+    
+            // border: 1px solid black;
+            height: 40vh;
+    
+        }
+    
+        .icons {
+    
+            text-align: center;
+            margin-top: 2vh;
+    
+            .icon-item {
+    
+                img {
+                    width: 22px;
+                    // height: 24px;
+                    margin-right: 12px;
+                }
+    
+                .fb, .location {
+                    width: 12px;
+                }
+            }
+        }
+    }
+
+    .appContainer {
+        background-image: url('./../assets/images/background.jpg');
+        // height: calc(100vh - 40px);
+        height: 100vh;
+        width: 100vw;
+        background-size: contain;
+        background-position: center;
+        overflow: hidden;
     }
 }

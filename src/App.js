@@ -17,6 +17,8 @@ import {
   JourneyComponent,
   VolunteerComponent,
   ContactComponent,
+  LocationComponent,
+  YoutubeComponent,
 } from './pages';
 
 function App() {
@@ -50,6 +52,12 @@ function App() {
             </Route>
             <Route path="/contact">
               <ContactComponent />
+            </Route>
+            <Route path="/location">
+              <LocationComponent />
+            </Route>
+            <Route path="/youtube">
+              <YoutubeComponent />
             </Route>
             <Route exact path="/">
               <HomeComponent />

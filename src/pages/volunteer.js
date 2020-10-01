@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-    NavLink,
+    NavLink, Link,
 } from 'react-router-dom';
 
 import "./style.scss";
@@ -88,7 +88,18 @@ export function VolunteerComponent() {
                             return (
                                 <React.Fragment>
                                     <span className="icon-item">
-                                        <img src={icon.src} alt={icon.title} className={icon.class} />
+
+                                        {
+                                            icon.internal
+                                                ?
+                                                <Link to={icon.link}>
+                                                    <img src={icon.src} alt={icon.title} className={icon.class} />
+                                                </Link>
+                                                :
+                                                <a href={icon.link} target="_blank">
+                                                    <img src={icon.src} alt={icon.title} className={icon.class} />
+                                                </a>
+                                        }
                                     </span>
                                 </React.Fragment>
                             )
@@ -98,6 +109,9 @@ export function VolunteerComponent() {
 
 
             </div>
+            <div className="donate-now">
+                DONATE NOW
+                </div>
         </React.Fragment>
     )
 }
