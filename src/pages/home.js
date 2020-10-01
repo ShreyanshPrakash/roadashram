@@ -15,7 +15,7 @@ export function HomeComponent() {
 
     return (
         <React.Fragment>
-            <div className="wrapper">
+            <div className="home wrapper">
 
 
                 <div className="navBar">
@@ -23,9 +23,18 @@ export function HomeComponent() {
                         navLinks.map((nav, index) => {
                             return (
                                 <React.Fragment key={index}>
-                                    <NavLink to={nav.link} className="font-size-8">
-                                        {nav.text}
-                                    </NavLink>
+                                    {
+                                        nav?.text?.toLowerCase() === "why"
+                                            ?
+                                            <NavLink to={nav.link} className="font-size-8">
+                                                <b>W</b>hy
+                                            </NavLink>
+                                            :
+                                            <NavLink to={nav.link} className="font-size-8">
+                                                {nav.text}
+                                            </NavLink>
+
+                                    }
                                 </React.Fragment>
                             )
                         })
@@ -61,11 +70,11 @@ export function HomeComponent() {
 
                 <div className="icons">
                     {
-                        icons.map((icon,index) => {
+                        icons.map((icon, index) => {
                             return (
                                 <React.Fragment>
                                     <span className="icon-item">
-                                        <img src={icon.src} alt={icon.title} className={icon.class}/>
+                                        <img src={icon.src} alt={icon.title} className={icon.class} />
                                     </span>
                                 </React.Fragment>
                             )

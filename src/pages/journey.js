@@ -15,7 +15,7 @@ export function JourneyComponent() {
 
     return (
         <React.Fragment>
-            <div className="wrapper">
+            <div className="journey wrapper">
 
 
                 <div className="navBar">
@@ -51,7 +51,7 @@ export function JourneyComponent() {
                     </p>
                     </div>
 
-                    <div className=" body-text font-size-12">
+                    <div className="body-text font-size-12">
                         <p>
                         Along the way, we learn and share our learnings about the country, it’s foods, cultures, people and places, while we try to find the unity in the many diversities that make India, India.
 
