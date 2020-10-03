@@ -19,3 +19,12 @@ server {
         proxy_redirect off;
      }
 }
+
+
+roadashramin-139171611.ap-south-1.elb.amazonaws.com
+
+65.0.27.238
+
+
+ns29.domaincontrol.com
+ns30.domaincontrol.com
