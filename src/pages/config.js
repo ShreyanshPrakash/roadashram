@@ -34,18 +34,18 @@ export const navLinks = [
 export const icons = [
     {
         src: "./assets/images/fb.png",
-        link: "https://www.facebook.com/roadashram",
+        link: "https://fb.com/roadaashram",
         title: "Facebook link",
         class: "fb",
     },
     {
         src: "./assets/images/twitter.png",
-        link: "https://twitter.com/RoadAshram",
+        link: "https://twitter.com/roadaashram",
         title: "Twitter link",
     },
     {
         src: "./assets/images/Insta.png",
-        link: "https://www.instagram.com/road_ashram/",
+        link: "https://instagram.com/roadaashram",
         title: "Instagram link",
     },
     {
@@ -61,7 +61,7 @@ export const icons = [
     },
     {
         src: "./assets/images/heart.png",
-        link: "#",
+        link: "https://www.facebook.com/donate/364307428084760/",
         title: "Heart link",
     },
     {
