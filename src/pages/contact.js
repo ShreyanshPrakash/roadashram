@@ -61,7 +61,7 @@ export function ContactComponent() {
                         howcanihelp@roadashram.in 
 
                     </p> */}
-                    <a href="mailto:howcanihelp@roadashram.in">howcanihelp@roadashram.in </a> 
+                    <a href="mailto:howcanihelp@roadashram.in" target="_blank">howcanihelp@roadashram.in </a> 
 
                     </div>
                 </div>
