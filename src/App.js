@@ -4,7 +4,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
 } from "react-router-dom";
 import image from "./pages/background.jpg";
 
@@ -22,6 +22,11 @@ import {
 } from './pages';
 
 function App() {
+
+  const handleLogoClick = () => {
+    window.location.href = "/";
+  }
+
   return (
     <div className="App">
 
@@ -30,6 +35,10 @@ function App() {
       </div> */}
 
       <div className="appContainer">
+
+        <div className="logo-overlay" onClick={handleLogoClick}>
+          
+        </div>
         <Router>
           <Switch>
             {/* <Route path="/problem">
