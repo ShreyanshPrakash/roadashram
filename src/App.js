@@ -5,6 +5,7 @@ import {
   Switch,
   Route,
   Link,
+  Redirect,
 } from "react-router-dom";
 import image from "./pages/background.jpg";
 
@@ -44,13 +45,13 @@ function App() {
             {/* <Route path="/problem">
               <ProblemComponent />
             </Route> */}
-            <Route path="/donate">
+            <Route exact  path="/donate">
               <DonateComponent />
             </Route>
-            <Route path="/roadashram">
+            <Route exact  path="/roadashram">
               <RoadAshramComponent />
             </Route>
-            <Route path="/people">
+            <Route exact  path="/people">
               <PeopleComponent />
             </Route>
             <Route path="/journey">
@@ -68,8 +69,11 @@ function App() {
             <Route path="/youtube">
               <YoutubeComponent />
             </Route>
-            <Route exact path="/">
+            <Route exact path="/home">
               <HomeComponent />
+            </Route>
+            <Route render={() => <Redirect to="/home"/>}>
+              {/* <HomeComponent /> */}
             </Route>
           </Switch>
         </Router>

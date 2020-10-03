@@ -1,7 +1,7 @@
 export const navLinks = [
     {
         text: "Why",
-        link: "/"
+        link: "/home"
     },
     {
         text: "Donate",
@@ -25,7 +25,7 @@ export const navLinks = [
     },
     {
         text: "Contact",
-        link: "contact"
+        link: "/contact"
     }
 
 ];
