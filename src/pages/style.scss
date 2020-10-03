@@ -64,7 +64,7 @@
 }
 
 .logo-overlay {
-    // border: 1px solid black;
+    border: 1px solid black;
     width: 140px;
     height: 100px;
     margin: auto;
@@ -223,6 +223,14 @@
         }
     }
 
+    .logo-overlay {
+        border: 1px solid black;
+        width: 250px;
+        height: 220px;
+        margin: auto;
+        margin-top: 3vh;
+    }
+
 
     .wrapper {
         // border: 2px solid black;
@@ -237,7 +245,7 @@
             // margin-top: 20vh;
             // padding: 4px 0px;
             // text-align: center;
-            margin-top: 20vh;
+            margin-top: 1vh;
     
             a {
                 // padding: 0px 2px;
@@ -321,6 +329,14 @@
         }
     }
 
+    .logo-overlay {
+        border: 1px solid black;
+        width: 150px;
+        height: 120px;
+        margin: auto;
+        margin-top: 3vh;
+    }
+
 
     .wrapper {
         // border: 2px solid black;
@@ -335,7 +351,7 @@
             // margin-top: 20vh;
             // padding: 4px 0px;
             // text-align: center;
-            margin-top: 20vh;
+            margin-top: 2vh;
     
             a {
                 // padding: 0px 2px;
