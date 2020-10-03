@@ -1,6 +1,7 @@
 import React from 'react';
 import {
     NavLink, Link,
+    useHistory,
 } from 'react-router-dom';
 
 import "./style.scss";
@@ -12,6 +13,12 @@ import {
 
 
 export function VolunteerComponent() {
+
+    const history = useHistory();
+
+    const handleDonateClick = () => {
+        history.push("/donate");
+    }
 
     return (
         <React.Fragment>
@@ -109,7 +116,7 @@ export function VolunteerComponent() {
 
 
             </div>
-            <div className="donate-now">
+            <div className="donate-now" onClick={handleDonateClick}>
                 DONATE NOW
                 </div>
         </React.Fragment>

@@ -2,6 +2,7 @@ import React from 'react';
 import {
     NavLink,
     Link,
+    useHistory,
 } from 'react-router-dom';
 
 
@@ -14,6 +15,12 @@ import {
 
 
 export function ContactComponent() {
+
+    const history = useHistory();
+
+    const handleDonateClick = () => {
+        history.push("/donate");
+    }
 
     return (
         <React.Fragment>
@@ -93,7 +100,7 @@ export function ContactComponent() {
 
 
             </div>
-            <div className="donate-now">
+            <div className="donate-now" onClick={handleDonateClick}>
                 DONATE NOW
                 </div>
         </React.Fragment>
