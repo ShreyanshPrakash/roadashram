@@ -18,7 +18,10 @@ export function JourneyComponent() {
     const history = useHistory();
 
     const handleDonateClick = () => {
-        history.push("/donate");
+        // history.push("/donate");
+        window.open(
+            "https://www.facebook.com/donate/364307428084760/"
+        )
     }
 
     return (
