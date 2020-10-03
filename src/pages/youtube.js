@@ -53,7 +53,16 @@ export function YoutubeComponent() {
                     </div>
 
                     <div className="youtube flex-item">
-                        <img src={videoIcon}/>
+                        {/* <img src={videoIcon}/> */}
+                        <iframe 
+                            // width="560" 
+                            // height="315" 
+                            // src="https://www.youtube.com/embed/videoseries?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG" 
+                            src="https://www.youtube.com/embed/5wwKlfMPoYg"
+                            frameborder="0" 
+                            allow="autoplay; encrypted-media" 
+                            allowfullscreen
+                        ></iframe>
                     </div>
 
                     <div className="arrow-right arrow flex-item">
