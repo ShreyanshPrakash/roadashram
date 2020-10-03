@@ -78,8 +78,13 @@
         padding: 4px 0px;
         text-align: center;
 
+        .active {
+            border-bottom: 1px solid black;
+        }
+
         a {
-            padding: 0px 3px;
+            // padding: 0px 2px;
+            margin: 0px 3px;
             border-right: 1px solid black;
             text-decoration: none;
             color: black;
