@@ -54,11 +54,11 @@ export const icons = [
         link: "/youtube",
         title: "Youtube link",
     },
-    {
-        src: "./assets/images/whatsapp.png",
-        link: "#",
-        title: "Whatsapp link",
-    },
+    // {
+    //     src: "./assets/images/whatsapp.png",
+    //     link: "#",
+    //     title: "Whatsapp link",
+    // },
     {
         src: "./assets/images/heart.png",
         link: "https://www.facebook.com/donate/364307428084760/",
